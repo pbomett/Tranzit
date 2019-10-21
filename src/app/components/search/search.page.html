@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Search</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form (ngSubmit)="logForm()">
+    <div class="search-container">
+        <input placeholder="Enter a search term" class="input" name="searchword">
+        <ion-button type="submit" fill="clear">
+          <ion-icon name="search"></ion-icon>
+        </ion-button>
+    </div>
+    <div class="nfc-container">
+      <img src="../../../assets/image_search-24px.svg" alt="">
+      <p>Tap the back of the device with your NFC card</p>
+    </div>
+  </form>
+</ion-content>

@@ -20,6 +20,11 @@ export class AppComponent {
       title: 'List',
       url: '/list',
       icon: 'list'
+    },
+    {
+      title: 'Search',
+      url: '/search',
+      icon: 'search'
     }
   ];
 
@@ -34,7 +39,7 @@ export class AppComponent {
   initializeApp() {
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
-      this.splashScreen.show();
+      this.splashScreen.hide();
     });
   }
 }

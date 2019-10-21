@@ -1,0 +1,39 @@
+.input{
+    border-radius: 10px;
+    width: stretch;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+ion-button{
+    background-color: #f1f1f1;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 10px;
+}
+
+.nfc-container{
+    img{
+        width: 150px;
+        height: 150px;
+        opacity: 0.3;
+    }
+    p{
+      font-size: 1em;
+      padding: 0 60px;
+      text-align: center;
+    }
+
+    padding: 20px 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+
