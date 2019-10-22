@@ -10,12 +10,13 @@
 
 ion-button{
     background-color: #f1f1f1;
+    border: none;
 }
 .search-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 35px 10px;
+    margin: 15px 10px;
 }
 
 .nfc-container{
