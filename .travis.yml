@@ -1,10 +1,6 @@
 language: node_js
-rvm: 
+node_js: 
   - '10.16.3'
-
-install:
-  - npm install ng-common
-  - npm install
 
 script:
   - ng test --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
