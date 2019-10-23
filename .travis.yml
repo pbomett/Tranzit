@@ -2,8 +2,5 @@ language: node_js
 rvm: 
   - '10.16.3'
 
-install:
-  - npm install
-
 script:
   echo 'Hello world!'
