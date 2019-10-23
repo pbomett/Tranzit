@@ -1,8 +1,7 @@
 language: node_js
-  - '10.16'
 
 install:
-  - npm install -g cordova ionic
+  - npm install -g cordova ionic ng-common
   - npm install
 
 script:
