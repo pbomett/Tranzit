@@ -3,4 +3,4 @@ node_js:
   - '10.16.3'
 
 script:
-  - ng test --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
+  - npm test --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
