@@ -3,8 +3,7 @@ rvm:
   - '10.16.3'
 
 install:
-  - npm install ng-common
   - npm install
 
 script:
-  - ng test --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
+  echo 'Hello world!'
