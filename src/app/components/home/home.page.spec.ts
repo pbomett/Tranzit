@@ -36,7 +36,7 @@ describe('HomePage', () => {
   });
 
   it('should have login and contact admin buttons', ()=>{
-    expect(de.query(By.css('#login')).nativeElement).toBeTruthy();
-    expect(de.query(By.css('#contact')).nativeElement).toBeTruthy();
+    expect(de.query(By.css('#login')).nativeElement.innerText).toContain('LOG IN');
+    expect(de.query(By.css('#contact')).nativeElement.innerText).toContain('CONTACT ADMIN');
   });
 });
