@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.com/pbomett/Tranzit.svg?branch=master)](https://travis-ci.com/pbomett/Tranzit)
 
-# Project Title
+# Tranzit
 
-Tranzit - a mobile app to help school bus owners keep and manage student records in their daily commutes.
+Tranzit is a mobile app to help school bus owners keep and manage student records in their daily commutes.
 
 ## Getting Started
 
@@ -12,8 +12,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 Before running the project, make sure you have the following installed:
 
-- Angular 8 +
-- Node 10 +
+- Ionic v5.4.4
+- Node v10.16.3
 
 ### Installing
 
@@ -37,7 +37,7 @@ To deploy the app, run ng build
 
 ## Built With
 
-* [IonicFramework]https://ionicframework.com/) - The web framework used
+* Ionic Framework (https://ionicframework.com/)
 
 ## Contributing
 
